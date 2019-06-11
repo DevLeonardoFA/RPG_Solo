@@ -1,0 +1,17 @@
+.padrao {
+    transition: 1000ms;
+}
+
+.off {
+    opacity: 0;
+}
+
+.disabled {
+    display: none !important;
+}
+
+p {
+    font-size: 18px;
+    font-family: morrisroman;
+    src: url(../fonts/morrisroman-black-webfont.ttf);
+}

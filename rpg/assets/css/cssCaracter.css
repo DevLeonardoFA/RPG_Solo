@@ -1,0 +1,58 @@
+.caracter--bkg{
+    background-color: darkslategray;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.caracter--letters{
+    color: aliceblue;
+    font-family: Verdana;
+}
+
+.caracter__values{
+    width: 200px;
+    height: 360px;
+    text-align: center;
+    background-color: #575a6d ;
+}
+
+.caracter__perfil{
+    top: 0;
+    width: 200px;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 50%;
+    position: absolute;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.caracter__perfil--archer{
+    background-image: url(../images/004-bow.png);
+}
+
+.caracter__perfil--warrior{
+    background-image: url(../images/002-sword.png);
+}
+
+.caracter__perfil--thief{
+    background-image: url(../images/017-key.png);
+}
+
+.caracter__perfil--mage{
+    background-image: url(../images/041-scepter.png);
+}
+
+.caracter__perfil:hover{
+    opacity: 0;
+}
+
+.class_values{
+    margin-right: -5px;
+}
+
+.introduction{
+    text-align: center;
+}

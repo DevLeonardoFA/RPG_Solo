@@ -1,0 +1,10 @@
+.ref_imgs h6{
+    color: black;
+    font-size: 8;
+    font-style: none;
+}
+
+.ref_imgs h6 > a{
+    color: black;
+    text-decoration: none;
+}
